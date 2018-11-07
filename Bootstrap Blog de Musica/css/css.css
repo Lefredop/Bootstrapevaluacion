@@ -1,0 +1,108 @@
+.logo-img{
+width: 120px;
+margin-left:10px;
+}
+
+.barra-superior{
+background-color:#FFF8DC;
+min-height: 10%;
+border: none;
+}
+
+.redes-sociales{
+font-size: 30px;
+padding-left: 100px;
+}
+
+.barra-de-navegacion{
+    background-color: #F5B041;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 0px;
+    padding-bottom:0px;
+}
+
+.hola{
+list-style:none;
+}
+}
+/*logos de Redes Sociales*/
+.zmdi-facebook-box{
+color:#3A5795;
+}
+
+.zmdi-google-plus{
+color:#C30907;
+}
+
+.zmdi-instagram{
+color:#2A5B83;
+}
+
+.zmdi-twitter{
+color:#5EA9DD;
+}
+
+.zmdi-pinterest-box{
+color:#D70004;
+}
+
+.zmdi-youtube-play{
+color:#CC181E;
+}
+
+.nav{
+    display: flex;
+    padding-top: 90px;
+}
+
+.comentario{
+	display: flex;
+	flex-direction: row;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+.contenido-principal{
+background-color: white;
+}
+
+article{
+padding-left:100px;
+}
+
+.row-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.imagenentrada{
+	max-width:100%;
+}
+.icono-img{
+	width: 40px;
+	height: 30px;
+	margin-right: 5px;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	background-color:  #FFF8DC;
+}
+
+@media (max-width: 750px){
+	#busqueda{
+		display: none;
+	}
+	.barra-de-navegacion{
+	max-width; 100%;
+	list-style: none
+	}
+	.logo-img{
+width: 100%;
+margin-left:10px;
+align:center;
+}
+
